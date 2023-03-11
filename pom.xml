@@ -14,9 +14,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+ 
+    
+
   
-<distributionManagement>
-    <repository>
+  </dependencies>
+  
+  <distributionManagement>
         <id>central</id>
         <name>ip-172-31-93-108.ec2.internal-releases</name>
         <url>http://44.203.190.178:8081/artifactory/maven-feb</url>
@@ -28,10 +32,6 @@
         <url>http://44.203.190.178:8081/artifactory/maven-feb</url>
     </snapshotRepository>
 </distributionManagement>
-  
-  </dependencies>
-  
-  
   
 <build>
  <plugins>
