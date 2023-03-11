@@ -21,12 +21,15 @@
         <name>ip-172-31-93-108.ec2.internal-releases</name>
         <url>http://44.203.190.178:8081/artifactory/maven-feb</url>
     </repository>
+  
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-93-108.ec2.internal-snapshots</name>
         <url>http://44.203.190.178:8081/artifactory/maven-feb</url>
     </snapshotRepository>
-</distributionManagement></dependencies>
+</distributionManagement>
+  
+  </dependencies>
   
   
   
